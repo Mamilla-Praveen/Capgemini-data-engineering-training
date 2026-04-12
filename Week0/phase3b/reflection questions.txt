@@ -1,0 +1,21 @@
+1. What happens if cleaning is skipped?
+
+If data cleaning is skipped, the dataset will contain errors such as null values, duplicates, and invalid entries. This leads to incorrect calculations, misleading insights, and unreliable results. Any analysis or pipeline built on such data becomes untrustworthy.
+
+2. Which issue impacted results most?
+
+Invalid data (such as incorrect or negative values) impacts results the most because it directly distorts calculations and aggregations. Duplicates also significantly affect results by inflating counts and totals.
+
+3. How would this affect business decisions?
+
+Poor data quality can lead to wrong insights, which may result in bad business decisions. For example, incorrect customer counts or revenue calculations can affect strategy, budgeting, and planning, ultimately causing financial loss or missed opportunities.
+
+4. Can you define a cleaning checklist?
+
+A basic data cleaning checklist includes:
+Remove or handle null values
+Remove duplicate records
+Validate data types
+Filter invalid or outlier values
+Ensure consistency in formats (e.g., names, cities)
+Verify data after cleaning (row counts, sample checks)
